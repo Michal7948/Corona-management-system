@@ -1,0 +1,34 @@
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\AppServices.deps.json
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\AppServices.dll
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\ref\AppServices.dll
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\AppServices.pdb
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.AssemblyInfo.cs
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.dll
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\ref\AppServices.dll
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.pdb
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\Repositories.dll
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\Common.pdb
+D:\מטלת בית\Corona_management\AppServices\bin\Debug\net6.0\Repositories.pdb
+D:\מטלת בית\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.CopyComplete
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\AppServices.deps.json
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\AppServices.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\ref\AppServices.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\AppServices.pdb
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\Repositories.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\Common.pdb
+D:\מטלת בית\Corona Management\Corona_management\AppServices\bin\Debug\net6.0\Repositories.pdb
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.AssemblyInfo.cs
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.csproj.CopyComplete
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\ref\AppServices.dll
+D:\מטלת בית\Corona Management\Corona_management\AppServices\obj\Debug\net6.0\AppServices.pdb

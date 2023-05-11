@@ -1,0 +1,28 @@
+
+<form class="form" dir="rtl" [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+  <div class="form-group">
+    <label for="">תעודת זהות:</label>
+    <input class="form-control" type="text" formControlName="idNumber" [(ngModel)]="idNumberForm" required minlength="9" maxlength="9" numbersOnly><br>
+    <label for="">שם פרטי:  </label>
+    <input class="form-control" type="text" formControlName="firstName" required ><br>
+    <label for="">שם משפחה:</label>
+    <input class="form-control" type="text" formControlName="lastName" required ><br>
+    <label for="">עיר:</label>
+    <input class="form-control" type="text" formControlName="city" required><br>
+    <label for="">רחוב: </label>
+    <input class="form-control" type="text" formControlName="street" required><br>
+    <label for="">מספר רחוב: </label>
+    <input class="form-control" type="number" formControlName="numberStreet" required><br>
+    <label for="">תאריך לידה</label>
+    <input class="form-control" type="date" formControlName="dateOfBirth" required><br>
+    <label for="">טלפון: </label>
+    <input class="form-control" type="text" formControlName="phoneNumber" required minlength="9" maxlength="9" numbersOnly><br>
+    <label for="">טלפון נייד: </label>
+    <input class="form-control" type="text" formControlName="mobileNumber" required minlength="10" maxlength="10" numbersOnly><br>
+    <input class="form-control" type="submit" value="צור משתמש"  [disabled]="!form.valid">
+  </div>
+</form>
+
+
+
+

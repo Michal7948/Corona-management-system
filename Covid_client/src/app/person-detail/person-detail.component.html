@@ -1,0 +1,22 @@
+<div dir="rtl" class="one_detail">
+  <p><b> תעודת זהות: </b>{{personDetail.idNumber}}</p>
+  <p><b>שם:</b> {{personDetail.firstName}} {{personDetail.lastName}}</p>
+  <p><b>כתובת:</b> {{personDetail.street}} {{personDetail.numberStreet}} {{personDetail.city}}</p>
+  <p><b>תאריך לידה:</b> {{personDetail.dateOfBirth|date:'dd/MM/yyyy'}}</p>
+  <p><b>טלפון:</b> {{personDetail.phoneNumber}}</p>
+  <p><b>טלפון נייד:</b> {{personDetail.mobileNumber}}</p>
+</div>
+<div dir="rtl"  class="covid_detail" >
+  <p *ngIf="covidDetail.idNumber"><b> תעודת זהות: </b>{{covidDetail.idNumber}}</p>
+  <p *ngIf="covidDetail.Vaccine_date1"><b> תאריך חיסון 1 </b>{{covidDetail.Vaccine_date1 | date:'dd/MM/yyyy'}}</p>
+  <p *ngIf="covidDetail.Vaccine_manufacturer1"><b> יצרן חיסון 1 </b>{{covidDetail.Vaccine_manufacturer1}}</p>
+  <p *ngIf="covidDetail.Vaccine_date2"><b> תאריך חיסון 2 </b>{{covidDetail.Vaccine_date2 | date:'dd/MM/yyyy'}}</p>
+  <p *ngIf="covidDetail.Vaccine_manufacturer2"><b> יצרן חיסון 2 </b>{{covidDetail.Vaccine_manufacturer2}}</p>
+  <p *ngIf="covidDetail.Vaccine_date3"><b> תאריך חיסון 3 </b>{{covidDetail.Vaccine_date3 | date:'dd/MM/yyyy'}}</p>
+  <p *ngIf="covidDetail.Vaccine_manufacturer3"><b> יצרן חיסון 3 </b>{{covidDetail.Vaccine_manufacturer3}}</p>
+  <p *ngIf="covidDetail.Vaccine_date4"><b> תאריך חיסון 4 </b>{{covidDetail.Vaccine_date4 | date:'dd/MM/yyyy'}}</p>
+  <p *ngIf="covidDetail.Vaccine_manufacturer4"><b> יצרן חיסון 4 </b>{{covidDetail.Vaccine_manufacturer4}}</p>
+  <p *ngIf="covidDetail.Positive_result_date"><b> מועד קבלת תוצאה חיובית </b>{{covidDetail.Positive_result_date | date:'dd/MM/yyyy'}}</p>
+  <p *ngIf="covidDetail.Recovery_date"><b> מועד החלמה מהמחלה</b>{{covidDetail.Recovery_date | date:'dd/MM/yyyy'}}</p>
+</div>
+<a class="link_back" [routerLink]="['/ListDetails']" routerLinkActive="active" ><--חזור לרשימה</a>

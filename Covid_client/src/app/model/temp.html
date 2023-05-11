@@ -1,0 +1,104 @@
+<br />
+<!-- my_API_KEY= AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0 -->
+<div class="flex-container">
+  <div class="flex-item-left-l">
+    <div *ngIf="open" class="div_open">
+      <div (click)="click_close()" class="x">X</div>
+      <div class="map">
+        <iframe
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0
+           &q=Beit+Israel,Jerusalem+Israel"></iframe>
+        <!-- <iframe
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0
+            &q=Beit+Israel,Jerusalem+Israel"
+        ></iframe> -->
+        <!-- src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0
+            &q=Beit+Israel,Jerusalem+Israel" -->
+
+            <!-- src="'https://www.google.com/maps/embed/v1/place?key=AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0
+            &q='+ ${this.location1}" -->
+      </div>
+      
+      <!-- <input type="text" id="pac-input" placeholder="Enter a location"> -->
+
+      <form class="form" dir="rtl" [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+        <div class="form-group">
+          <!-- <input class="form-control" type="search" formControlName="location" placeholder="הזן כתובת לחיפוש..."/><br/> -->
+        
+            <!-- <input class="form-control " type="text"  id="pac-input"  formControlName="location" value="" placeholder="הזן כתובת לחיפוש..."/>  -->
+            <!-- <input class="form-control inp" (click)="local()" type="button" value="חפש"> -->
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" formControlName="location" placeholder="הזן כתובת לחיפוש..." aria-label="Example text with button addon" aria-describedby="button-addon1">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon1">חפש</button>
+            </div>
+
+            <!-- <input type="text" placeholder="Search location" formControlName="searchControl"> -->
+
+
+          <!-- <button class="form-control" >חפש</button><br/>  -->
+          <label for="">תאריך חשיפה לנגיף</label>
+          <input class="form-control" type="date" formControlName="date"/><br><br>
+          <input class="form-control" type="submit" value="צור בידוד" [disabled]="!form.valid"/>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="flex-item-right-l">
+    <button
+      (click)="click_open()"
+      type="button"
+      class="btn btn-outline-primary btn-lg btn_style"
+    >
+      יצירת בידוד קבוצתי
+    </button>
+  </div>
+</div>
+
+
+
+
+<!-- <google-map 
+  [center]="center" 
+  [zoom]="zoom" 
+  (mapClick)="addMarker($event)">
+  <map-marker *ngFor="let marker of markers" 
+    [position]="marker.position" 
+    [label]="marker.label" 
+    [title]="marker.title" 
+    [options]="marker.options" 
+    (click)="openInfo(marker, marker.info)">
+  </map-marker>
+  <map-info-window [content]="infoContent" #info></map-info-window>
+  <map-search-control 
+    [position]="google.maps.ControlPosition.TOP_LEFT"
+    (searchChange)="console.log($event)"
+    [searchOptions]="{componentRestrictions: {country: 'il'}}">
+  </map-search-control>
+</google-map> -->
+
+<!-- <google-map [center]="center" [zoom]="zoom" (mapClick)="addMarker($event)">
+  <map-marker *ngFor="let marker of markers" [position]="marker.position" [label]="marker.label" [title]="marker.title" [options]="marker.options" (click)="openInfo(marker, marker.info)"></map-marker>
+  <map-info-window [content]="infoContent" #info></map-info-window>
+  <map-search-control [position]="google.maps.ControlPosition.TOP_LEFT" (searchChange)="console.log($event)" [searchOptions]="{componentRestrictions: {country: 'il'}}"></map-search-control>
+</google-map> -->
+
+<google-map [center]="center" [zoom]="zoom" (mapClick)="addMarker($event)">
+  <map-marker *ngFor="let marker of markers"  [position]="marker.position" [label]="marker.label" [title]="marker.title" [options]="marker.options" (click)="openInfo(marker,marker.info)" ></map-marker>
+  <map-info-window  #info></map-info-window>
+  <!-- <map-info-window [content]="infoContent"  #info></map-info-window> -->
+  <!-- <map-search-control></map-search-control> -->
+  <!-- <map-search-control [position]="google.maps.ControlPosition.TOP_LEFT" (searchChange)="console.log($event)" [searchOptions]="{componentRestrictions: {country: 'il'}}"></map-search-control> -->
+
+</google-map>
+
+
+
+
+
+

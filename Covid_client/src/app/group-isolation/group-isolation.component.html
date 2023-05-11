@@ -1,0 +1,36 @@
+<br /><br />
+<!-- my_API_KEY= AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0 -->
+
+<div class="flex-container">
+  <div class="flex-item-left-l">
+    <div *ngIf="open" class="div_open">
+      <div (click)="click_close()" class="x">X</div>
+      <iframe
+        id="map-iframe"
+        width="100%"
+        height="350"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAzEIcirPaiv0BwIofKft9XXUbji2hWWZ0&q=Beit+Israel,Jerusalem+Israel"  
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+      <form class="form form-group" dir="rtl" [formGroup]="form" (ngSubmit)="onSubmit(form.value)">        
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" formControlName="location" [(ngModel)]="location" (keyup.enter)="changeLocation()" placeholder="הזן כתובת לחיפוש..."  aria-describedby="button-addon1">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1" (click)="changeLocation()">חפש</button>
+        </div>
+        
+        <br>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon2">תאריך חשיפה לנגיף</span>
+          <input type="date" class="form-control" aria-describedby="basic-addon2" [(ngModel)]="date" formControlName="date">
+        </div>
+        <input class="form-control" type="submit" value="צור בידוד" >
+      </form>
+    </div>
+  </div>
+  <div class="flex-item-right-l">
+    <button (click)="click_open()" type="button" class="btn btn-outline-primary btn-lg btn_style">יצירת בידוד קבוצתי</button>
+  </div>
+</div>
+
+

@@ -1,0 +1,30 @@
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.exe
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.deps.json
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.runtimeconfig.json
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.dll
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\ref\Corona_management.dll
+D:\מטלת בית\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.pdb
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.AssemblyInfo.cs
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.dll
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\ref\Corona_management.dll
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.pdb
+D:\מטלת בית\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.genruntimeconfig.cache
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.exe
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.deps.json
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.runtimeconfig.json
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.dll
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\ref\Corona_management.dll
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\bin\Debug\net6.0\Corona_management.pdb
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.AssemblyInfo.cs
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.dll
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\ref\Corona_management.dll
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.pdb
+D:\מטלת בית\Corona Management\Corona_management\Corona_management\obj\Debug\net6.0\Corona_management.genruntimeconfig.cache

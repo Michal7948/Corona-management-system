@@ -1,0 +1,20 @@
+/* tbody{
+  cursor: pointer;
+} */
+
+/* .tb{
+  margin-top: 5%;
+} */
+
+.create_btn{
+  position: fixed;
+  top: 2;
+  width: 15%;
+  background: white;
+  color: #001343;
+}
+
+.create_btn:hover{
+  background: #001343;
+  color: white;
+}

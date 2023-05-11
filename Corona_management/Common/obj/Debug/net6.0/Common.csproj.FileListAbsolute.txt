@@ -1,0 +1,24 @@
+D:\מטלת בית\Corona_management\Common\bin\Debug\net6.0\Common.deps.json
+D:\מטלת בית\Corona_management\Common\bin\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona_management\Common\bin\Debug\net6.0\ref\Common.dll
+D:\מטלת בית\Corona_management\Common\bin\Debug\net6.0\Common.pdb
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\ref\Common.dll
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.pdb
+D:\מטלת בית\Corona_management\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona Management\Corona_management\Common\bin\Debug\net6.0\Common.deps.json
+D:\מטלת בית\Corona Management\Corona_management\Common\bin\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona Management\Corona_management\Common\bin\Debug\net6.0\ref\Common.dll
+D:\מטלת בית\Corona Management\Corona_management\Common\bin\Debug\net6.0\Common.pdb
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.dll
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\ref\Common.dll
+D:\מטלת בית\Corona Management\Corona_management\Common\obj\Debug\net6.0\Common.pdb

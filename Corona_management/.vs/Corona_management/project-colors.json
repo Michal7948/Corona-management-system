@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae51fd8f-ca9f-49a4-b95b-9babe5a36abb": {
+      "ProjectGuid": "ae51fd8f-ca9f-49a4-b95b-9babe5a36abb",
+      "DisplayName": "Corona_management",
+      "ColorIndex": 0
+    },
+    "fa90114e-f54d-4979-81e9-85ff82bb3897": {
+      "ProjectGuid": "fa90114e-f54d-4979-81e9-85ff82bb3897",
+      "DisplayName": "Web_API",
+      "ColorIndex": 1
+    },
+    "b49a3904-af21-41f1-990d-141cf83a1354": {
+      "ProjectGuid": "b49a3904-af21-41f1-990d-141cf83a1354",
+      "DisplayName": "Repositories",
+      "ColorIndex": 2
+    },
+    "f1145b5f-8475-41d3-8dd6-8629eb71e5b6": {
+      "ProjectGuid": "f1145b5f-8475-41d3-8dd6-8629eb71e5b6",
+      "DisplayName": "AppServices",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ee45b893-e3e7-4dd0-aba4-611cda563489": {
+      "ProjectGuid": "ee45b893-e3e7-4dd0-aba4-611cda563489",
+      "DisplayName": "Common",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

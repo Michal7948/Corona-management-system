@@ -1,0 +1,39 @@
+<br>
+<button class="create_btn btn btn-outline-secondary "  routerLink="/newPerson" routerLinkActive="active">הוספת משתמש</button>
+<table class="tb table table-striped table-hover">
+  <thead>
+    <tr dir="rtl" class="flex-row-reverse">
+      <th></th>
+      <th>טלפון נייד</th>
+      <th>טלפון</th>
+      <th>תאריך לידה</th>
+      <th>מספר רחוב</th>
+      <th>רחוב</th>
+      <th>עיר</th>
+      <th>שם משפחה</th>
+      <th>שם פרטי</th>
+      <th>תעודת זהות</th>
+      <th>#</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of personalDetailsArr; let i = index">
+    <tr dir="rtl" class="flex-row-reverse">
+      <td><button class="btn " (click)="clicked(item.idNumber)" routerLink="/personDetail" routerLinkActive="active">פרטים נוספים...</button></td>
+      <td>{{ item.mobileNumber }}</td>
+      <td>{{ item.phoneNumber }}</td>
+      <td>{{ item.dateOfBirth | date : "shortDate" }}</td>
+      <td>{{item.numberStreet}}</td>
+      <td>{{item.street}}</td>
+      <td>{{ item.city }}</td>
+      <td>{{ item.lastName }}</td>
+      <td>{{ item.firstName }}</td>
+      <td>{{ item.idNumber }}</td>
+      <th scope="row">{{ i + 1 }}</th>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+

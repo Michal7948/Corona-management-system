@@ -1,0 +1,17 @@
+<div class="div_vaccine">
+  <button *ngIf="btn_close" dir="rtl" class="btn btn-outline-secondary create_btn" (click)="display()" >הוספת חיסון</button>
+
+  <form *ngIf="isCheck" class="form" id="myForm" dir="rtl" [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+    <div class="form-group">
+      <label for="">תעודת זהות:</label>
+      <input class="form-control" type="text" formControlName="idNumber" required minlength="9" maxlength="9" numbersOnly><br>
+      <label for="">תאריך קבלת החיסון</label>
+      <input class="form-control" type="date" formControlName="date_vaccination" required><br>
+      <label for="">יצרן החיסון  </label>
+      <input class="form-control" type="text" formControlName="Vaccine_manufacturer" required ><br>
+      <input class="form-control" type="submit" value="הוסף חיסון" [disabled]="!form.valid">
+    </div>
+  </form>
+</div>
+
+

@@ -1,0 +1,26 @@
+<div class="color">
+  <img src="assets/Pictures/LOGO.gif" alt="" width="20%" />
+  <span class="title">מערכת לניהול קורונה</span>
+  <img src="assets/Pictures/LOGO.gif" alt="" width="20%" />
+
+  <ul id="nav" class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/Home" routerLinkActive="active">בית</a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['/ListDetails']"
+        routerLinkActive="active"
+        >רשימת חברים בקופת חולים</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/groupIsolation" routerLinkActive="active">בידוד קבוצתי</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/vaccinations" routerLinkActive="active">חיסונים</a>
+    </li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>
